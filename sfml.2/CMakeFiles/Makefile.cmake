@@ -35,6 +35,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/programs/C++/CppDistro/cmake/share/cmake-3.9/Modules/SelectLibraryConfigurations.cmake"
   "00/CMakeLists.txt"
   "01/CMakeLists.txt"
+  "02/CMakeLists.txt"
   "CMakeFiles/3.9.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.9.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.9.1/CMakeRCCompiler.cmake"
@@ -53,10 +54,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "00/CMakeFiles/CMakeDirectoryInformation.cmake"
   "01/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "02/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "00/CMakeFiles/00.dir/DependInfo.cmake"
   "01/CMakeFiles/01.dir/DependInfo.cmake"
+  "02/CMakeFiles/02.dir/DependInfo.cmake"
   )
