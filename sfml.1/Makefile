@@ -47,10 +47,10 @@ RM = D:\programs\C++\CppDistro\cmake\bin\cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\programs\C++\progect\sfml.1
+CMAKE_SOURCE_DIR = D:\programs\C++\LabsC++\sfml.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\programs\C++\progect\sfml.1
+CMAKE_BINARY_DIR = D:\programs\C++\LabsC++\sfml.1
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\progect\sfml.1\CMakeFiles D:\programs\C++\progect\sfml.1\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\LabsC++\sfml.1\CMakeFiles D:\programs\C++\LabsC++\sfml.1\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\progect\sfml.1\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\LabsC++\sfml.1\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -161,6 +161,19 @@ depend:
 	$(MAKE) -f 11\CMakeFiles\11.dir\build.make 11/CMakeFiles/11.dir/build
 .PHONY : 11/fast
 
+#=============================================================================
+# Target rules for targets named 12
+
+# Build rule for target.
+12: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 12
+.PHONY : 12
+
+# fast build rule for target.
+12/fast:
+	$(MAKE) -f 12\CMakeFiles\12.dir\build.make 12/CMakeFiles/12.dir/build
+.PHONY : 12/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -173,6 +186,7 @@ help:
 	@echo ... 01
 	@echo ... 02
 	@echo ... 11
+	@echo ... 12
 .PHONY : help
 
 

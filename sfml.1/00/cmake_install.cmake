@@ -1,4 +1,4 @@
-# Install script for directory: D:/programs/C++/progect/sfml.1/00
+# Install script for directory: D:/programs/C++/LabsC++/sfml.1/00
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

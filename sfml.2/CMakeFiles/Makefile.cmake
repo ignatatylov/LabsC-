@@ -41,6 +41,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.9.1/CMakeRCCompiler.cmake"
   "CMakeFiles/3.9.1/CMakeSystem.cmake"
   "CMakeLists.txt"
+  "sfml2.1/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -55,6 +56,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "00/CMakeFiles/CMakeDirectoryInformation.cmake"
   "01/CMakeFiles/CMakeDirectoryInformation.cmake"
   "02/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "sfml2.1/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -62,4 +64,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "00/CMakeFiles/00.dir/DependInfo.cmake"
   "01/CMakeFiles/01.dir/DependInfo.cmake"
   "02/CMakeFiles/02.dir/DependInfo.cmake"
+  "sfml2.1/CMakeFiles/sfml2.1.dir/DependInfo.cmake"
   )

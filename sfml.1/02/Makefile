@@ -47,10 +47,10 @@ RM = D:\programs\C++\CppDistro\cmake\bin\cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\programs\C++\progect\sfml.1
+CMAKE_SOURCE_DIR = D:\programs\C++\LabsC++\sfml.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\programs\C++\progect\sfml.1
+CMAKE_BINARY_DIR = D:\programs\C++\LabsC++\sfml.1
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,14 +79,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\programs\C++\progect\sfml.1 && $(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\progect\sfml.1\CMakeFiles D:\programs\C++\progect\sfml.1\02\CMakeFiles\progress.marks
-	cd /d D:\programs\C++\progect\sfml.1 && $(MAKE) -f CMakeFiles\Makefile2 02/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\progect\sfml.1\CMakeFiles 0
+	cd /d D:\programs\C++\LabsC++\sfml.1 && $(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\LabsC++\sfml.1\CMakeFiles D:\programs\C++\LabsC++\sfml.1\02\CMakeFiles\progress.marks
+	cd /d D:\programs\C++\LabsC++\sfml.1 && $(MAKE) -f CMakeFiles\Makefile2 02/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\LabsC++\sfml.1\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\programs\C++\progect\sfml.1 && $(MAKE) -f CMakeFiles\Makefile2 02/clean
+	cd /d D:\programs\C++\LabsC++\sfml.1 && $(MAKE) -f CMakeFiles\Makefile2 02/clean
 .PHONY : clean
 
 # The main clean target
@@ -96,22 +96,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\programs\C++\progect\sfml.1 && $(MAKE) -f CMakeFiles\Makefile2 02/preinstall
+	cd /d D:\programs\C++\LabsC++\sfml.1 && $(MAKE) -f CMakeFiles\Makefile2 02/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\programs\C++\progect\sfml.1 && $(MAKE) -f CMakeFiles\Makefile2 02/preinstall
+	cd /d D:\programs\C++\LabsC++\sfml.1 && $(MAKE) -f CMakeFiles\Makefile2 02/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d D:\programs\C++\progect\sfml.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\programs\C++\LabsC++\sfml.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 02/CMakeFiles/02.dir/rule:
-	cd /d D:\programs\C++\progect\sfml.1 && $(MAKE) -f CMakeFiles\Makefile2 02/CMakeFiles/02.dir/rule
+	cd /d D:\programs\C++\LabsC++\sfml.1 && $(MAKE) -f CMakeFiles\Makefile2 02/CMakeFiles/02.dir/rule
 .PHONY : 02/CMakeFiles/02.dir/rule
 
 # Convenience name for target.
@@ -121,7 +121,7 @@ depend:
 
 # fast build rule for target.
 02/fast:
-	cd /d D:\programs\C++\progect\sfml.1 && $(MAKE) -f 02\CMakeFiles\02.dir\build.make 02/CMakeFiles/02.dir/build
+	cd /d D:\programs\C++\LabsC++\sfml.1 && $(MAKE) -f 02\CMakeFiles\02.dir\build.make 02/CMakeFiles/02.dir/build
 .PHONY : 02/fast
 
 main.obj: main.cpp.obj
@@ -130,7 +130,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd /d D:\programs\C++\progect\sfml.1 && $(MAKE) -f 02\CMakeFiles\02.dir\build.make 02/CMakeFiles/02.dir/main.cpp.obj
+	cd /d D:\programs\C++\LabsC++\sfml.1 && $(MAKE) -f 02\CMakeFiles\02.dir\build.make 02/CMakeFiles/02.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -139,7 +139,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /d D:\programs\C++\progect\sfml.1 && $(MAKE) -f 02\CMakeFiles\02.dir\build.make 02/CMakeFiles/02.dir/main.cpp.i
+	cd /d D:\programs\C++\LabsC++\sfml.1 && $(MAKE) -f 02\CMakeFiles\02.dir\build.make 02/CMakeFiles/02.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -148,7 +148,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /d D:\programs\C++\progect\sfml.1 && $(MAKE) -f 02\CMakeFiles\02.dir\build.make 02/CMakeFiles/02.dir/main.cpp.s
+	cd /d D:\programs\C++\LabsC++\sfml.1 && $(MAKE) -f 02\CMakeFiles\02.dir\build.make 02/CMakeFiles/02.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -174,6 +174,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d D:\programs\C++\progect\sfml.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\programs\C++\LabsC++\sfml.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

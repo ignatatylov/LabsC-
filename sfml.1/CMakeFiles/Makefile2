@@ -53,10 +53,10 @@ RM = D:\programs\C++\CppDistro\cmake\bin\cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\programs\C++\progect\sfml.1
+CMAKE_SOURCE_DIR = D:\programs\C++\LabsC++\sfml.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\programs\C++\progect\sfml.1
+CMAKE_BINARY_DIR = D:\programs\C++\LabsC++\sfml.1
 
 #=============================================================================
 # Directory level rules for directory 00
@@ -83,7 +83,7 @@ CMAKE_BINARY_DIR = D:\programs\C++\progect\sfml.1
 00/CMakeFiles/00.dir/all:
 	$(MAKE) -f 00\CMakeFiles\00.dir\build.make 00/CMakeFiles/00.dir/depend
 	$(MAKE) -f 00\CMakeFiles\00.dir\build.make 00/CMakeFiles/00.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\programs\C++\progect\sfml.1\CMakeFiles --progress-num=1,2 "Built target 00"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\programs\C++\LabsC++\sfml.1\CMakeFiles --progress-num=1,2 "Built target 00"
 .PHONY : 00/CMakeFiles/00.dir/all
 
 # Include target in all.
@@ -93,9 +93,9 @@ all: 00/CMakeFiles/00.dir/all
 
 # Build rule for subdir invocation for target.
 00/CMakeFiles/00.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\progect\sfml.1\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\LabsC++\sfml.1\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 00/CMakeFiles/00.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\progect\sfml.1\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\LabsC++\sfml.1\CMakeFiles 0
 .PHONY : 00/CMakeFiles/00.dir/rule
 
 # Convenience name for target.
@@ -138,7 +138,7 @@ clean: 00/CMakeFiles/00.dir/clean
 01/CMakeFiles/01.dir/all:
 	$(MAKE) -f 01\CMakeFiles\01.dir\build.make 01/CMakeFiles/01.dir/depend
 	$(MAKE) -f 01\CMakeFiles\01.dir\build.make 01/CMakeFiles/01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\programs\C++\progect\sfml.1\CMakeFiles --progress-num=3,4 "Built target 01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\programs\C++\LabsC++\sfml.1\CMakeFiles --progress-num=3,4 "Built target 01"
 .PHONY : 01/CMakeFiles/01.dir/all
 
 # Include target in all.
@@ -148,9 +148,9 @@ all: 01/CMakeFiles/01.dir/all
 
 # Build rule for subdir invocation for target.
 01/CMakeFiles/01.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\progect\sfml.1\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\LabsC++\sfml.1\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 01/CMakeFiles/01.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\progect\sfml.1\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\LabsC++\sfml.1\CMakeFiles 0
 .PHONY : 01/CMakeFiles/01.dir/rule
 
 # Convenience name for target.
@@ -193,7 +193,7 @@ clean: 01/CMakeFiles/01.dir/clean
 02/CMakeFiles/02.dir/all:
 	$(MAKE) -f 02\CMakeFiles\02.dir\build.make 02/CMakeFiles/02.dir/depend
 	$(MAKE) -f 02\CMakeFiles\02.dir\build.make 02/CMakeFiles/02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\programs\C++\progect\sfml.1\CMakeFiles --progress-num=5,6 "Built target 02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\programs\C++\LabsC++\sfml.1\CMakeFiles --progress-num=5,6 "Built target 02"
 .PHONY : 02/CMakeFiles/02.dir/all
 
 # Include target in all.
@@ -203,9 +203,9 @@ all: 02/CMakeFiles/02.dir/all
 
 # Build rule for subdir invocation for target.
 02/CMakeFiles/02.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\progect\sfml.1\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\LabsC++\sfml.1\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 02/CMakeFiles/02.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\progect\sfml.1\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\LabsC++\sfml.1\CMakeFiles 0
 .PHONY : 02/CMakeFiles/02.dir/rule
 
 # Convenience name for target.
@@ -248,7 +248,7 @@ clean: 02/CMakeFiles/02.dir/clean
 11/CMakeFiles/11.dir/all:
 	$(MAKE) -f 11\CMakeFiles\11.dir\build.make 11/CMakeFiles/11.dir/depend
 	$(MAKE) -f 11\CMakeFiles\11.dir\build.make 11/CMakeFiles/11.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\programs\C++\progect\sfml.1\CMakeFiles --progress-num=7,8 "Built target 11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\programs\C++\LabsC++\sfml.1\CMakeFiles --progress-num=7,8 "Built target 11"
 .PHONY : 11/CMakeFiles/11.dir/all
 
 # Include target in all.
@@ -258,9 +258,9 @@ all: 11/CMakeFiles/11.dir/all
 
 # Build rule for subdir invocation for target.
 11/CMakeFiles/11.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\progect\sfml.1\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\LabsC++\sfml.1\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 11/CMakeFiles/11.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\progect\sfml.1\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\LabsC++\sfml.1\CMakeFiles 0
 .PHONY : 11/CMakeFiles/11.dir/rule
 
 # Convenience name for target.
@@ -275,6 +275,61 @@ all: 11/CMakeFiles/11.dir/all
 
 # clean rule for target.
 clean: 11/CMakeFiles/11.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory 12
+
+# Convenience name for "all" pass in the directory.
+12/all: 12/CMakeFiles/12.dir/all
+
+.PHONY : 12/all
+
+# Convenience name for "clean" pass in the directory.
+12/clean: 12/CMakeFiles/12.dir/clean
+
+.PHONY : 12/clean
+
+# Convenience name for "preinstall" pass in the directory.
+12/preinstall:
+
+.PHONY : 12/preinstall
+
+#=============================================================================
+# Target rules for target 12/CMakeFiles/12.dir
+
+# All Build rule for target.
+12/CMakeFiles/12.dir/all:
+	$(MAKE) -f 12\CMakeFiles\12.dir\build.make 12/CMakeFiles/12.dir/depend
+	$(MAKE) -f 12\CMakeFiles\12.dir\build.make 12/CMakeFiles/12.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\programs\C++\LabsC++\sfml.1\CMakeFiles --progress-num=9,10 "Built target 12"
+.PHONY : 12/CMakeFiles/12.dir/all
+
+# Include target in all.
+all: 12/CMakeFiles/12.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+12/CMakeFiles/12.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\LabsC++\sfml.1\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 12/CMakeFiles/12.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\LabsC++\sfml.1\CMakeFiles 0
+.PHONY : 12/CMakeFiles/12.dir/rule
+
+# Convenience name for target.
+12: 12/CMakeFiles/12.dir/rule
+
+.PHONY : 12
+
+# clean rule for target.
+12/CMakeFiles/12.dir/clean:
+	$(MAKE) -f 12\CMakeFiles\12.dir\build.make 12/CMakeFiles/12.dir/clean
+.PHONY : 12/CMakeFiles/12.dir/clean
+
+# clean rule for target.
+clean: 12/CMakeFiles/12.dir/clean
 
 .PHONY : clean
 

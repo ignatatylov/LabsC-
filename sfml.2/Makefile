@@ -148,6 +148,19 @@ depend:
 	$(MAKE) -f 02\CMakeFiles\02.dir\build.make 02/CMakeFiles/02.dir/build
 .PHONY : 02/fast
 
+#=============================================================================
+# Target rules for targets named sfml2.1
+
+# Build rule for target.
+sfml2.1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 sfml2.1
+.PHONY : sfml2.1
+
+# fast build rule for target.
+sfml2.1/fast:
+	$(MAKE) -f sfml2.1\CMakeFiles\sfml2.1.dir\build.make sfml2.1/CMakeFiles/sfml2.1.dir/build
+.PHONY : sfml2.1/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -159,6 +172,7 @@ help:
 	@echo ... 00
 	@echo ... 01
 	@echo ... 02
+	@echo ... sfml2.1
 .PHONY : help
 
 
