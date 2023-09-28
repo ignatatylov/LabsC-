@@ -79,14 +79,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\LabsC++\sfml.1\CMakeFiles D:\programs\C++\LabsC++\sfml.1\CMakeFiles\progress.marks
-	$(MAKE) -f CMakeFiles\Makefile2 all
+	cd /d D:\programs\C++\LabsC++\sfml.1 && $(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\LabsC++\sfml.1\CMakeFiles D:\programs\C++\LabsC++\sfml.1\13\CMakeFiles\progress.marks
+	cd /d D:\programs\C++\LabsC++\sfml.1 && $(MAKE) -f CMakeFiles\Makefile2 13/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\LabsC++\sfml.1\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles\Makefile2 clean
+	cd /d D:\programs\C++\LabsC++\sfml.1 && $(MAKE) -f CMakeFiles\Makefile2 13/clean
 .PHONY : clean
 
 # The main clean target
@@ -96,96 +96,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles\Makefile2 preinstall
+	cd /d D:\programs\C++\LabsC++\sfml.1 && $(MAKE) -f CMakeFiles\Makefile2 13/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles\Makefile2 preinstall
+	cd /d D:\programs\C++\LabsC++\sfml.1 && $(MAKE) -f CMakeFiles\Makefile2 13/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\programs\C++\LabsC++\sfml.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named 00
+# Convenience name for target.
+13/CMakeFiles/13.dir/rule:
+	cd /d D:\programs\C++\LabsC++\sfml.1 && $(MAKE) -f CMakeFiles\Makefile2 13/CMakeFiles/13.dir/rule
+.PHONY : 13/CMakeFiles/13.dir/rule
 
-# Build rule for target.
-00: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 00
-.PHONY : 00
+# Convenience name for target.
+13: 13/CMakeFiles/13.dir/rule
 
-# fast build rule for target.
-00/fast:
-	$(MAKE) -f 00\CMakeFiles\00.dir\build.make 00/CMakeFiles/00.dir/build
-.PHONY : 00/fast
-
-#=============================================================================
-# Target rules for targets named 01
-
-# Build rule for target.
-01: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 01
-.PHONY : 01
-
-# fast build rule for target.
-01/fast:
-	$(MAKE) -f 01\CMakeFiles\01.dir\build.make 01/CMakeFiles/01.dir/build
-.PHONY : 01/fast
-
-#=============================================================================
-# Target rules for targets named 02
-
-# Build rule for target.
-02: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 02
-.PHONY : 02
-
-# fast build rule for target.
-02/fast:
-	$(MAKE) -f 02\CMakeFiles\02.dir\build.make 02/CMakeFiles/02.dir/build
-.PHONY : 02/fast
-
-#=============================================================================
-# Target rules for targets named 11
-
-# Build rule for target.
-11: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 11
-.PHONY : 11
-
-# fast build rule for target.
-11/fast:
-	$(MAKE) -f 11\CMakeFiles\11.dir\build.make 11/CMakeFiles/11.dir/build
-.PHONY : 11/fast
-
-#=============================================================================
-# Target rules for targets named 12
-
-# Build rule for target.
-12: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 12
-.PHONY : 12
-
-# fast build rule for target.
-12/fast:
-	$(MAKE) -f 12\CMakeFiles\12.dir\build.make 12/CMakeFiles/12.dir/build
-.PHONY : 12/fast
-
-#=============================================================================
-# Target rules for targets named 13
-
-# Build rule for target.
-13: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 13
 .PHONY : 13
 
 # fast build rule for target.
 13/fast:
-	$(MAKE) -f 13\CMakeFiles\13.dir\build.make 13/CMakeFiles/13.dir/build
+	cd /d D:\programs\C++\LabsC++\sfml.1 && $(MAKE) -f 13\CMakeFiles\13.dir\build.make 13/CMakeFiles/13.dir/build
 .PHONY : 13/fast
+
+main.obj: main.cpp.obj
+
+.PHONY : main.obj
+
+# target to build an object file
+main.cpp.obj:
+	cd /d D:\programs\C++\LabsC++\sfml.1 && $(MAKE) -f 13\CMakeFiles\13.dir\build.make 13/CMakeFiles/13.dir/main.cpp.obj
+.PHONY : main.cpp.obj
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd /d D:\programs\C++\LabsC++\sfml.1 && $(MAKE) -f 13\CMakeFiles\13.dir\build.make 13/CMakeFiles/13.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd /d D:\programs\C++\LabsC++\sfml.1 && $(MAKE) -f 13\CMakeFiles\13.dir\build.make 13/CMakeFiles/13.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -193,14 +157,12 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... 13
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... 00
-	@echo ... 01
-	@echo ... 02
-	@echo ... 11
-	@echo ... 12
-	@echo ... 13
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 
@@ -212,6 +174,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\programs\C++\LabsC++\sfml.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

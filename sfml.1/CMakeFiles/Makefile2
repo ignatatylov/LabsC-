@@ -334,6 +334,61 @@ clean: 12/CMakeFiles/12.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory 13
+
+# Convenience name for "all" pass in the directory.
+13/all: 13/CMakeFiles/13.dir/all
+
+.PHONY : 13/all
+
+# Convenience name for "clean" pass in the directory.
+13/clean: 13/CMakeFiles/13.dir/clean
+
+.PHONY : 13/clean
+
+# Convenience name for "preinstall" pass in the directory.
+13/preinstall:
+
+.PHONY : 13/preinstall
+
+#=============================================================================
+# Target rules for target 13/CMakeFiles/13.dir
+
+# All Build rule for target.
+13/CMakeFiles/13.dir/all:
+	$(MAKE) -f 13\CMakeFiles\13.dir\build.make 13/CMakeFiles/13.dir/depend
+	$(MAKE) -f 13\CMakeFiles\13.dir\build.make 13/CMakeFiles/13.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\programs\C++\LabsC++\sfml.1\CMakeFiles --progress-num=11,12 "Built target 13"
+.PHONY : 13/CMakeFiles/13.dir/all
+
+# Include target in all.
+all: 13/CMakeFiles/13.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+13/CMakeFiles/13.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\LabsC++\sfml.1\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 13/CMakeFiles/13.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\programs\C++\LabsC++\sfml.1\CMakeFiles 0
+.PHONY : 13/CMakeFiles/13.dir/rule
+
+# Convenience name for target.
+13: 13/CMakeFiles/13.dir/rule
+
+.PHONY : 13
+
+# clean rule for target.
+13/CMakeFiles/13.dir/clean:
+	$(MAKE) -f 13\CMakeFiles\13.dir\build.make 13/CMakeFiles/13.dir/clean
+.PHONY : 13/CMakeFiles/13.dir/clean
+
+# clean rule for target.
+clean: 13/CMakeFiles/13.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

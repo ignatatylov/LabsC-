@@ -34,6 +34,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("D:/programs/C++/LabsC++/sfml.1/02/cmake_install.cmake")
   include("D:/programs/C++/LabsC++/sfml.1/11/cmake_install.cmake")
   include("D:/programs/C++/LabsC++/sfml.1/12/cmake_install.cmake")
+  include("D:/programs/C++/LabsC++/sfml.1/13/cmake_install.cmake")
 
 endif()
 

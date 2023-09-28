@@ -15,3 +15,6 @@ D:/programs/C++/LabsC++/sfml.1/11/CMakeFiles/edit_cache.dir
 D:/programs/C++/LabsC++/sfml.1/12/CMakeFiles/12.dir
 D:/programs/C++/LabsC++/sfml.1/12/CMakeFiles/edit_cache.dir
 D:/programs/C++/LabsC++/sfml.1/12/CMakeFiles/rebuild_cache.dir
+D:/programs/C++/LabsC++/sfml.1/13/CMakeFiles/13.dir
+D:/programs/C++/LabsC++/sfml.1/13/CMakeFiles/edit_cache.dir
+D:/programs/C++/LabsC++/sfml.1/13/CMakeFiles/rebuild_cache.dir
