@@ -11,7 +11,8 @@ int main()
     constexpr float BALL_SIZE = 40;
 
     sf::RenderWindow window(sf::VideoMode({WINDOW_WIDTH, WINDOW_HEIGHT}), "Moving Ball");
-    sf::Clock clock;
+    sf::Clock clockX;
+    sf::Clock clockY;
 
     sf::Vector2f position = {10, 350};
 
@@ -35,28 +36,22 @@ int main()
         constexpr float amplitudeY = 80.f;
         constexpr float periodY = 2;
 
-        float time = clock.getElapsedTime().asSeconds();
+        float time = clockY.getElapsedTime().asSeconds();
+        float dt = clockX.restart().asSeconds();
         float wavePhase = time * float(2 * M_PI);
-        float x = speedX * time;
+        float x = x + speedX * dt;
         float y = amplitudeY * std::sin(wavePhase / periodY);
+
         sf::Vector2f offset = {x, y};
 
         if (position.x + offset.x + 2 * BALL_SIZE >= WINDOW_WIDTH)
         {
             speedX = -speedX;
         }
-        if ((position.x < 0) && (speedX < 0))
+        if ((position.x + offset.x < 0) && (speedX < 0))
         {
             speedX = -speedX;
         }
-        // if ((position.y + 2 * BALL_SIZE >= WINDOW_HEIGHT) && (speed.y > 0))
-        // {
-        //     speed.y = -speed.y;
-        // }
-        // if ((position.y < 0) && (speed.y < 0))
-        // {
-        //     speed.y = -speed.y;
-        // }
 
         ball.setPosition(position + offset);
 
