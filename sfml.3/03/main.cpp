@@ -4,8 +4,6 @@
 #include <iostream>
 #include <cmath>
 #include <algorithm>
-#include <chrono>
-#include <thread>
 
 float lastAngle{1000.0};
 
@@ -57,7 +55,6 @@ void update(const sf::Vector2f &mousePosition, sf::ConvexShape &pointer)
 {
     const sf::Vector2f delta = mousePosition - pointer.getPosition();
     const float angle = toDegrees(atan2(delta.y, delta.x));
-    std::cout << angle << " xxx " << lastAngle << std::endl;
     if (lastAngle == 1000.0)
     {
         lastAngle = angle;
