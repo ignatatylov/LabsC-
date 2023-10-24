@@ -26,15 +26,23 @@ float toDegrees(float radians)
     return float(double(radians) * 180.0 / M_PI);
 }
 
-void updateEyelidElements(Eyelid &eyelid)
+void updateEyelidElements(Eyelid &eyelid, sf::Vector2f &mousePosition)
 {
     eyelid.eye.setPosition(eyelid.position);
-    const sf::Vector2f headOffset = toEuclidean(20, eyelid.rotation);
+    int rd = sqrt((mousePosition.x - eyelid.position.x) * (mousePosition.x - eyelid.position.x) + (mousePosition.y - eyelid.position.y) * (mousePosition.y - eyelid.position.y));
+    sf::Vector2f headOffset;
+    if (rd <= 20)
+    {
+        headOffset = toEuclidean(rd, eyelid.rotation);
+    }
+    else
+    {
+        headOffset = toEuclidean(20, eyelid.rotation);
+    }
     eyelid.pupil.setPosition(eyelid.position + headOffset);
 }
 
-// Инициализирует фигуру-стрелку
-void initEyelid(Eyelid &eyelid)
+void initEyelid(Eyelid &eyelid, sf::Vector2f &mousePosition)
 {
     constexpr int pointCount = 200;
     const sf::Vector2f ellipseRadiusPupil = {8.f, 20.f};
@@ -62,15 +70,14 @@ void initEyelid(Eyelid &eyelid)
         eyelid.eye.setPoint(pointNo, point);
     }
 
-    updateEyelidElements(eyelid);
+    updateEyelidElements(eyelid, mousePosition);
 }
 
 void onMouseMove(const sf::Event::MouseMoveEvent &event, sf::Vector2f &mousePosition)
 {
-    std::cout << "mouse x=" << event.x << ", y=" << event.y << std::endl;
     mousePosition = {float(event.x), float(event.y)};
 }
-// Опрашивает и обрабатывает доступные события в цикле.
+
 void pollEvents(sf::RenderWindow &window, sf::Vector2f &mousePosition)
 {
     sf::Event event;
@@ -90,11 +97,11 @@ void pollEvents(sf::RenderWindow &window, sf::Vector2f &mousePosition)
     }
 }
 
-void update(const sf::Vector2f &mousePosition, Eyelid &eyelid)
+void update(sf::Vector2f &mousePosition, Eyelid &eyelid)
 {
     const sf::Vector2f delta = mousePosition - eyelid.position;
     eyelid.rotation = atan2(delta.y, delta.x);
-    updateEyelidElements(eyelid);
+    updateEyelidElements(eyelid, mousePosition);
 }
 
 void redrawFrame(sf::RenderWindow &window, Eyelid &eyelid1, Eyelid &eyelid2)
@@ -125,8 +132,8 @@ int main()
     eyelid1.position = {350, 300};
     eyelid2.position = {450, 300};
 
-    initEyelid(eyelid1);
-    initEyelid(eyelid2);
+    initEyelid(eyelid1, mousePosition);
+    initEyelid(eyelid2, mousePosition);
     while (window.isOpen())
     {
         pollEvents(window, mousePosition);
